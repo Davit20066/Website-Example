@@ -1,0 +1,1315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 70px;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(0, 53, 59, 1);
+}
+.HeaderLinks{
+    width: 40%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderLinks li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.HeaderLinks li a{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 1);
+}
+.HeaderProperties{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderProperties a{
+    padding-right: 8%;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 1);
+}
+header ion-icon[name="search"] {
+    color: rgba(255, 255, 255, 1);
+}
+header ion-icon[name="cart"] {
+    color: rgba(255, 255, 255, 1);
+}
+.HeaderProperties button{
+    width: 35%;
+    height: 40px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+.HeaderProperties button:hover{
+    background-color: rgba(34, 164, 90, 1);
+    color: rgba(255, 255, 255, 1);
+    transition: .3s;
+}
+.FirstSection{
+    width: 100%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 53, 59, 1);
+}
+.FirstSectionContainer{
+    width: 52%;
+    padding-right: 5%;
+}
+.FirstSectionContainer h1{
+    padding-bottom: 6%;
+    font-family: "Poppins";
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.FirstSectionContainer p{
+    padding-bottom: 6%;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.FisrtSectionWrapper{
+    width: 62%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FisrtSectionWrapper button{
+    width: 58%;
+    height: 40px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 5px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(34, 164, 90, 1);
+}
+.FisrtSectionWrapper button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(34, 164, 90, 1);
+    transition: .3s;
+}
+.FisrtSectionWrapper a{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 1);
+}
+.FisrtSectionWrapper ion-icon[name="play-circle"]{
+    color: rgba(255, 255, 255, 1);
+}
+.FirstSectionBottom{
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.FirstSectionBottomImg{
+    width: 50%;
+}
+.FirstSectionBottomImg img{
+    width: 100%;
+}
+.FirstSectionBottomRewiews{
+    width: 50%;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FirstSectionBottomRewiews div{
+    width: 100%;
+}
+.FirstSectionBottomRewiews ion-icon[name="star"]{
+    margin-right: 3%;
+    color: rgba(224, 180, 32, 1);
+}
+.FirstSectionBottomRewiews h4{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.FirstSectionContainerImg{
+    width: 48%;
+}
+.FirstSectionContainerImg img{
+    width: 100%;
+}
+.SecondSection{
+    width: 100%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 53, 59, 1);
+}
+.SecondSection h1{
+    padding-bottom: 12%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.SecondSectionContainer{
+    width: 86%;
+    height: 55vh;
+    margin-bottom: -12%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(252, 216, 202, 1);
+}
+.SecondSectionContainer span{
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 4px;
+    color:rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.SecondSectionContainer h2{
+    font-family: "Poppins";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(31, 41, 55, 1);
+}
+.SecondSectionContainer p{
+    width: 53%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(55, 65, 81, 1);
+}
+.SecondSectionContainer button{
+    width: 10%;
+    height: 40px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 6px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 41, 55, 1);
+}
+.SecondSectionContainer button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 41, 55, 1);
+    transition: .3s;
+}
+.ThirdSection{
+    width: 100%;
+    padding-top: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ThirdSectionContainer{
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ThirdSectionImg{
+    width: 40%;
+}
+.ThirdSectionImg img{
+    width: 100%;
+}
+.ThirdSectionWrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ThirdSectionWrapper h1{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(31, 41, 55, 1);
+}
+.ThirdSectionWrapper p{
+    padding-bottom: 4.5%;
+    padding-top: 5%;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(75, 85, 99, 1);    
+}
+.ThirdSectionWrapperItems{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ThirdSectionWrapperItems button{
+    width: 50%;
+    height: 44px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 7px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 41, 55, 1);
+    border: 2px solid rgba(31, 41, 55, 1);
+}
+.ThirdSectionWrapperItems button:hover{
+    border: 2px solid rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 41, 55, 1);
+    transition: .3s;
+}
+.ThirdSectionWrapperItems a{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration-line: none;
+    color: rgba(17, 24, 39, 1);    
+}
+.FourthSection{
+    width: 100%;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.FourthSectionContainer{
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FourthSectionImg{
+    width: 40%;
+}
+.FourthSectionImg img{
+    width: 100%;
+}
+.FourthSectionWrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FourthSectionWrapper h1{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(31, 41, 55, 1);
+}
+.FourthSectionWrapper p{
+    padding-bottom: 4.5%;
+    padding-top: 5%;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(75, 85, 99, 1);    
+}
+.FourthSectionWrapperItems{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FourthSectionWrapperItems button{
+    width: 50%;
+    height: 44px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 7px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 41, 55, 1);
+    border: 2px solid rgba(31, 41, 55, 1);
+}
+.FourthSectionWrapperItems button:hover{
+    border: 2px solid rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 41, 55, 1);
+    transition: .3s;
+}
+.FourthSectionWrapperItems a{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration-line: none;
+    color: rgba(17, 24, 39, 1);    
+}
+.FifthSection{
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FifthSection span{
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgba(252, 216, 202, 1);
+    color: rgba(31, 41, 55, 1);
+}
+.FifthSection h1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 41, 55, 1);
+}
+.FifthSection p{
+    width: 52%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22 0em;
+    text-align: center;
+    color: rgba(75, 85, 99, 1);
+}
+.FifthSectionContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.FifthSectionWrapper{
+    width: 30%;
+    height: 60vh;
+    padding-top: 2%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 15px;
+    background-color: rgba(0, 53, 59, 1);
+}
+.FifthSectionWrapper h2{
+    width: 21%;
+    height: 24px;
+    border-radius: 3px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.FifthSectionWrapper h3{
+    margin-top: -8%;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.FifthSectionWrapper h4{
+    margin-top: -10%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.FifthSectionWrapperButtonImg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.FifthSectionWrapperButtonImg button{
+    width: 35%;
+    height: 35px;
+    margin-bottom: 6%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(34, 164, 90, 1);
+    border-radius: 7px;
+    border-style: none;
+}
+.FifthSectionWrapperButtonImg button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(34, 164, 90, 1);
+    transition: .3s;
+}
+.FifthSectionWrapperButtonImg img{
+    width: 45%;
+}
+.SixthSection{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.SixthSectionContainer{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(252, 216, 202, 1);
+}
+.SixthSectionWrapper:nth-child(1){
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.SixthSectionWrapper:nth-child(1) span{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    border-radius: 3px;
+    color: rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.SixthSectionWrapper:nth-child(1) h1{
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: rgba(31, 41, 55, 1);
+}
+.SixthSectionWrapper:nth-child(1) p{
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(55, 65, 81, 1);
+}
+.SixthSectionWrapper:nth-child(1) button{
+    height: 45px;
+    width: 28%;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-style: none;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(31, 41, 55, 1);
+}
+.SixthSectionWrapper:nth-child(1) button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(31, 41, 55, 1);
+    transition: .3s;
+}
+.SixthSectionWrapper:nth-child(2){
+    width: 50%;
+}
+.SixthSectionWrapper:nth-child(2) img{
+    width: 100%;
+}
+.SeventhSection{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.SeventhSectionWrapper{
+    width: 30%;
+    padding-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.SeventhSectionWrapper img{
+    width: 12%;
+}
+.SeventhSectionWrapper h2{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 74px;
+    letter-spacing: 0em;
+}
+.SeventhSectionWrapper p{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.EighthSection{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.EighthSection span{
+    width: 6%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 3px;
+    color: rgba(31, 41, 55, 1);
+    background-color: rgba(252, 216, 202, 1);
+}
+.EighthSection h1{
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 41, 55, 1);
+}
+.EighthSection p{
+    width: 60%;
+    padding-bottom: 3%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(75, 85, 99, 1);
+}
+.EighthSectionContainer{
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.EighthSectionContainer1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.EighthSectionContainer2{
+    width: 40%;
+}
+.EighthSectionContainer2 img{
+    width:  100%;
+}
+.EighthSectionContainer3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.EighthSectionWrapper{
+    width: 100%;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.EighthSectionWrapper img{
+    width: 12%;
+}
+.EighthSectionWrapper h2{
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 41, 55, 1);
+}
+.EighthSectionWrapper p{
+    width: 70%;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(75, 85, 99, 1);
+}
+.EighthSection button{
+    width: 15%;
+    height: 50px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-style: none;
+    border-radius: 8px;
+    border: 2px solid rgba(31, 41, 55, 1);
+    color: rgba(255, 255, 255, 1);    
+    background-color: rgba(31, 41, 55, 1);
+}
+.EighthSection button:hover{
+    border: 2px solid rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);    
+    color: rgba(31, 41, 55, 1);
+    transition: .3s;
+}
+.NinthSection{
+    width: 100%;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.NinthSectionContainer{
+    width: 1200px;
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 216, 202, 1);
+    border-radius: 30px;
+}
+.NinthSectionContainer span{
+    width: 11%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 4px;
+    color: rgba(75, 85, 99, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.NinthSectionContainer h1{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 41, 55, 1);
+}
+.NinthSectionContainer h2{
+    width: 60%;
+    padding-bottom: 4%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(75, 85, 99, 1);
+}
+.NinthSectionScrollDiv{
+    width: 1200px;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    overflow-x: auto;
+}
+.NinthSectionScrollDiv::-webkit-scrollbar{
+    width: 0;
+}
+.NinthSectionScrollDivWrapper{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    margin: 20px;
+    min-width: 350px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.NinthSectionScrollDivWrapperStarIcons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.NinthSectionScrollDivWrapperStarIcons ion-icon{
+    margin-right: 1%;
+}
+.NinthSectionScrollDivWrapper p{
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(31, 41, 55, 1);    
+}
+.NinthSectionScrollDivWrapperMasters{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.NinthSectionScrollDivWrapperMastersImg{
+    width: 15%;
+}
+.NinthSectionScrollDivWrapperMastersImg img{
+    width: 100%;
+}
+.NinthSectionScrollDivWrapperMastersDatas{
+    padding-left: 4%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.NinthSectionScrollDivWrapperMastersDatas h3{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(17, 24, 39, 1);
+}
+.NinthSectionScrollDivWrapperMastersDatas h4{
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(107, 114, 128, 1);
+}
+.TenthSection{
+    width: 100%;
+    margin-top: -22%;
+    padding-top: 30%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 53, 59, 1);
+}
+.TenthSection span{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(31, 41, 55, 1);
+    border-radius: 3px;
+    background-color: rgba(252, 216, 202, 1);
+}
+.TenthSectionHeading{
+    width: 100%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.TenthSectionHeading h1{
+    padding-top: 2%;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+.TenthSectionHeading h2{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 7px;
+    color: rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.TenthSectionContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.TenthSectionWrapper{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+}
+.TenthSectionWrapper img{
+    width: 100%; 
+}
+.TenthSectionWrapper h4{
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 4px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(17, 24, 39, 1);
+    background-color: rgba(170, 222, 168, 1);
+}
+.TenthSectionWrapper h3{
+    width: 95%;
+    padding-top: 2%;
+    padding-left: 5%;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: rgba(31, 41, 55, 1);
+}
+.TenthSectionWrapper p{
+    width: 95%;
+    padding-top: 1%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(75, 85, 99, 1)
+}
+.TenthSectionWrapper:nth-child(1) p{
+    padding-bottom: 16%;
+} 
+.TenthSectionWrapper:nth-child(2) p{
+    padding-bottom: 16%;
+}
+.TenthSectionWrapper a{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-decoration-line: none;
+    color: rgba(17, 24, 39, 1);
+}
+.ElevanthSection{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 53, 59, 1);
+}
+.ElevanthSection h1{
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.ElevanthSection p{
+    width: 50%;
+    padding-top: 1.5%;
+    padding-bottom: 2.5%;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.ElevanthSectionButtons{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ElevanthSectionButtons button:nth-child(1){
+    width: 47.5%;
+    height: 50px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(34, 164, 90, 1);
+    border-radius: 8px;
+    border-style: none;
+}
+.ElevanthSectionButtons button:nth-child(1):hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(34, 164, 90, 1);
+    transition: .3s;
+}
+.ElevanthSectionButtons button:nth-child(2){
+    width: 47.5%;
+    height: 50px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(31, 41, 55, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border-style: none;
+}
+.ElevanthSectionButtons button:nth-child(2):hover{
+    background-color: rgba(31, 41, 55, 1);
+    color: rgba(255, 255, 255, 1);
+    transition: .3s;
+}
+.TwelvethSection{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 53, 59, 1);
+}
+.TwelvethSectionBorderBottom{
+    width: 100%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.TwelvethSectionSubscribeDiv{
+    width: 33%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.TwelvethSectionSubscribeDiv p{
+    width: 90%;
+    padding-bottom: 5%;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+.TwelvethSectionSubscribeDiv h6{
+    width: 85%;
+    padding-top: 6%;
+    font-family: "DM Sans";
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.TwelvethSectionContainer{
+    width: 65%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.TwelvethSectionSubscribeDivWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.TwelvethSectionSubscribeDivWrapper input{
+    width: 67%;
+    height: 45px;
+    padding: 5%;
+    border-style: none;
+    border-radius: 8px;
+    appearance: none;
+}
+.TwelvethSectionSubscribeDivWrapper button{
+    width: 30%;
+    height: 45px;
+    border-style: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(34, 164, 90, 1);
+}
+.TwelvethSectionSubscribeDivWrapper button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(34, 164, 90, 1);
+    transition: .3s;
+}
+.TwelvethSectionWrapper{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.TwelvethSectionWrapper h2{
+    padding-bottom: 12%;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.TwelvethSectionWrapper a{
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 1);
+}
+footer{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 53, 59, 1);
+}
+footer p{
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+.FooterWebAccountsWrapper{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterWebAccountsWrapper img{
+    width: 100%;
+    padding: 3%;
+}
